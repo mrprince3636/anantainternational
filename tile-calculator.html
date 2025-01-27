@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tile Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="logo-container">
+      <img src="n__2_-removebg-preview.png" alt="Ananta International Logo" class="logo">
+    </div>
+    <nav>
+      <a href="home.html">Home</a>
+      <a href="shop.html">Shop Tiles</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+      <a href="tile-calculator.html" class="active">Tile Calculator</a>
+    </nav>
+  </header>
+
+  <!-- Tile Calculator Section -->
+  <section id="tile-calculator" class="tile-calculator">
+    <h2>Tile Calculator</h2>
+    <p>Calculate how many tiles you need for your project.</p>
+    <form id="calculator-form">
+      <label for="length">Room Length (in meters):</label>
+      <input type="number" id="length" name="length" required>
+
+      <label for="width">Room Width (in meters):</label>
+      <input type="number" id="width" name="width" required>
+
+      <label for="tile-size">Tile Size (in cm):</label>
+      <input type="number" id="tile-size" name="tile-size" required>
+
+      <button type="submit">Calculate</button>
+    </form>
+    <div id="result" class="result">
+      <!-- Result will be displayed here -->
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
