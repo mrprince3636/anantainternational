@@ -8,17 +8,26 @@
 </head>
 <body>
   <!-- Header with Navigation -->
-  <header class="header">
+  
+  <header>
     <div class="logo-container">
       <img src="Screenshot 2025-01-25 204724.png" alt="Ananta International Logo" class="logo">
     </div>
-    <nav>
-      <a href="home.html">Home</a>
-      <a href="tile-calculator.html">Tile Calculator</a>
-      <a href="packing-details.html">Packing Details</a>
-      <a href="#about">About Us</a>
-      <a href="#contact">Contact</a>
-    </nav>
+      <div class="menu-container">
+        <div class="menu-button" onclick="toggleMenu()">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <div class="dropdown-menu" id="dropdown-menu">
+          <a href="home.html">Home</a>
+          <a href="tile-calculator.html">Tile Calculator</a>
+          <a href="packing-details.html">Packing Details</a>
+          <a href="#about">About Us</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
   </header>
 
   <!-- Slider -->
